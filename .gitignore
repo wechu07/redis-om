@@ -1,4 +1,6 @@
 om/.gitkeep
+routers/.gitkeep
 node_modules
-sample.env
 .env
+dump.rdb
+txt.txt

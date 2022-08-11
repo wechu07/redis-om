@@ -7,5 +7,8 @@ const url = process.env.REDIS_URL
 // the .open() method conveniently returns `this`
 // chains the instantiation of the client with the opening of the client
 const client = await new Client().open(url)
+// client.on('connect', function () {
+//     console.log('Redis database onnected!');
+// }); //redis db connected status
 
 export default client

@@ -3,7 +3,9 @@ import 'dotenv/config'
 import express from 'express'
 import swaggerUi from 'swagger-ui-express'
 import YAML from 'yamljs'
+
 /* import routers */
+// BUG IS HERE!!
 import { router as personRouter } from './routers/person-router.js'
 import { router as searchRouter } from './routers/search-router.js'
 // const personRouter = require('./routers/person-router.js')
